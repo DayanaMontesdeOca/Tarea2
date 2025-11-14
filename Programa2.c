@@ -6,7 +6,7 @@
 
 int main() 
     {  
-    float r, area, circun;
+    float r, area, circun; //DECLARO 3 VARIABLES COMO FLOTANTES
     printf("...ESTE PROGRAMA CALCULA EL AREA Y CIRCUNFERENCIA DE UN CIRCULO...\n\n");
     printf("¿Cuál es el radio del círculo? ");
     scanf("%f", &r); //SE LEE EL RADIO COMO FLOTANTE
