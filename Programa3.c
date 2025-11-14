@@ -5,7 +5,7 @@
 
 int main() 
  {
-    float dlrs, ps;
+    float dlrs, ps; //DECLARO 2 VARIABLES COMO FLOTANTES
     
     printf("...ESTE PROGRAMA CONVIERTE DE DOLARES A PESOS...\n\n");
     printf("Ingresa la cantidad en dolares: ");
