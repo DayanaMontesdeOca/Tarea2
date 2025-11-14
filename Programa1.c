@@ -6,7 +6,7 @@
 int main() 
 
 {
-    float N1, N2; //DEFINO DOS VARIABLES COMO FLOTANTES
+    float N1, N2; //DECLARO DOS VARIABLES COMO FLOTANTES
     printf("...ESTE PROGRAMA SUMA, RESTA Y MULTIPLICA DOS NÚMEROS...\n\n");   
     printf("Ingresa el primer número: ");
     scanf("%f", &N1);   //SE LEE EL PRIMER NUMERO FLOTANTE
