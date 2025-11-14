@@ -11,7 +11,8 @@ int main()
     printf("Ingresa el primer número: ");
     scanf("%f", &N1);    
     printf("Ingresa el segundo número: ");
-    scanf("%f\n", &N2); 
+    scanf("%f", &N2); 
+    printf("\n");
     printf("La suma de ambos número es: %.2f\n\n", N1 + N2); 
     printf("La resta del primer número menos el segundo es: %.2f\n\n", N1 - N2); 
     printf("La resta del segundo número menos el primer es: %.2f\n\n", N2 - N1);
