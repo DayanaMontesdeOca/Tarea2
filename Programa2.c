@@ -2,7 +2,8 @@
   Tarea 2 Problemas Simples 2*/
 
 #include <stdio.h>
-#define PI 3.1416 //DEFINO A PI
+#define PI 3.1416 
+/*DEFINO A PI*/
 
 int main() 
     {  
