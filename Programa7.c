@@ -11,7 +11,6 @@ int main()
     printf("...ESTE PROGRAMA CALCULA EL PRECIO TOTAL DE EL TICKET DE IDA Y VUELTA...\n\n");
     printf("Ingrese la distancia de ida en kilometros: ");
     scanf("%f", &KM); //SE LEE KM COMO FLOTANTE
-
     printf("Ingrese los días de estancia: ");
     scanf("%d", &d); //SE LEE d COMO ENTERO
 
