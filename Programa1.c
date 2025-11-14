@@ -8,8 +8,6 @@ int main()
 {
     float N1, N2;
     printf("...ESTE PROGRAMA SUMA, RESTA Y MULTIPLICA DOS NÚMEROS...");
-    printf("\n");
-    printf("\n");
    
     printf("Ingresa el primer número: ");
     scanf("%f", &N1); //SE LEE EL PRIMER NUMERO FLOTANTE
