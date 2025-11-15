@@ -1,5 +1,5 @@
 /*DAYANA MONSERRAT RIVERA MONTES DE OCA
-  Tarea 2 Problemas con Estructuras Repetitivas FOR, WHILE.. 1*/
+  Tarea 2 Problemas con Estructuras Repetitivas FOR, WHILE.. 3*/
 
 #include <stdio.h>
 
