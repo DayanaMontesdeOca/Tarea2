@@ -6,13 +6,14 @@
 int main() 
 {
     int cant, i, sum=0; //DECLARO UNA VARIABLE cant UN INDICE i Y sum COMO ENTEROS E INICIALIZO sum EN 0
-    int arr[cant]; //DECLARO UN ARREGLO arr DE ENTEROS Y cant PARA LEER LOS ELEMENTOS DEL ARREGLO
     
     printf("...ESTE PROGRAMA SUMA LOS ELEMENTOS INGRESADOS\n");
     printf("       DE UN ARREGLO UNIDIMENSIONAL DE ENTEROS...\n\n");
     printf("Ingrese la cantidad de elementos del arreglo: ");
     scanf("%d", &cant); //SE LEE cant COMO ENTERO
     printf("\n");
+
+    int arr[cant]; //DECLARO UN ARREGLO arr DE ENTEROS Y cant PARA LEER LOS ELEMENTOS DEL ARREGLO
 
     for (i=0; i<cant; i++) //CON UN FOR INICIALIZO A i COMO CERO, DONDE i TIENE QUE SER MENOR A cant Y VA A AUMENTAR EN UNO
         {
