@@ -1,0 +1,25 @@
+/*DAYANA MONSERRAT RIVERA MONTES DE OCA
+  Tarea 2 Problemas con arreglos 4*/
+
+#include <stdio.h>
+
+int main() 
+{
+    int i, arr[100]; //DECLARO UN INDICE i Y UN ARREGLO arr[100] COMO ENTEROS
+    
+    printf("...ESTE PROGRAMA IMPRIME LOS PRIMEROS 100 NUMEROS PARES...\n\n");
+
+    for (i=0; i<100; i++) //CON UN FOR DONDE i EMPIEZA EN 0 Y TERMINA EN MENOR A 100 VAMOS A LLENAR EL ARREGLO
+      {
+         arr[i]=(i+1)*2; //EL ARREGLO SE LLENA SUMANDOLE UNO A i YA QUE EMPIEZA EN 0 POR LOS ELEMENTOS DEL ARREGLO
+                         //Y DESPUES SE MULTIPLICA POR DOS PARA QUE SEA MULTIPLO Y SE GUARDA EN EL ARREGLO CON AYUDA DEL INDICE
+      }
+
+    for (i=0; i<100; i++) //CON OTRO FOR VAMOS A IMPRIMIR LOS ELEMENTOS DEL 0 AL 99 DEL ARREGLO, CON i AUMENTANDO EN UNO
+      {
+          printf("%d ", arr[i]); //SE IMPRIMEN CONM AYUDA DEL INDICE
+      }
+    printf("\n");
+
+    return 0;
+}
